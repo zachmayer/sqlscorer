@@ -1,10 +1,19 @@
 Package: sqlscorer
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
-Date: 2015-02-09
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
-Suggests: testthat
+Title: R models to SQL queries
+Version: 0.0.0.1000
+Date: 2015-01-14
+Authors@R: c(person(c("Zachary", "A."), "Mayer", role = c("aut", "cre"),
+    email = "zach.mayer@gmail.com"))
+URL: https://github.com/zachmayer/sqlscorer
+BugReports: https://github.com/zachmayer/sqlscorer/issues
+Description: Functions for converting R models to SQL queries for scoring.
+Depends: 
+    R (>= 3.1.0)
+Suggests: 
+    testthat,
+    RSQLite,
+    knitr
+Imports: 
+License: MIT + file LICENSE
+VignetteBuilder: knitr
