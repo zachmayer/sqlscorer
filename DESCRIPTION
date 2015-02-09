@@ -8,12 +8,15 @@ Authors@R: c(person(c("Zachary", "A."), "Mayer", role = c("aut", "cre"),
 URL: https://github.com/zachmayer/sqlscorer
 BugReports: https://github.com/zachmayer/sqlscorer/issues
 Description: Functions for converting R models to SQL queries for scoring.
-Depends: 
+Depends:
     R (>= 3.1.0)
-Suggests: 
+Suggests:
     testthat,
     RSQLite,
-    knitr
-Imports: 
+    knitr,
+    caret,
+    gbm,
+    randomForest
+Imports:
 License: MIT + file LICENSE
 VignetteBuilder: knitr
